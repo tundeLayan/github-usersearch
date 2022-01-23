@@ -1,0 +1,19 @@
+nav.header {
+  background: #161b22;
+  display: flex;
+  align-items: center;
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    li {
+      margin-left: 20px;
+      color: white;
+    }
+  }
+  ul.nav-lists {
+  }
+  ul.list-actions {
+    margin-left: auto;
+  }
+}

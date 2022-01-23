@@ -12,8 +12,8 @@ const MainLayout = ({ children }: any) => {
   }, [query]);
   return (
     <div>
-      <div>
-        <nav className="header">
+      <div style={{ paddingTop: "40px" }}>
+        {/* <nav className="header">
           <ul className="nav-lists">
             <li>Logo</li>
             {!!query ? (
@@ -34,7 +34,7 @@ const MainLayout = ({ children }: any) => {
             <li>Plus</li>
             <li>Profile</li>
           </ul>
-        </nav>
+        </nav> */}
         {children}
       </div>
     </div>

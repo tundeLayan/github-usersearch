@@ -37,7 +37,8 @@ const Usercard = ({ avatar_url, url, login, apiUrl }: IUserCard) => {
           href={url}
           target="_blank"
           rel="noreferrer noopener"
-          referrerPolicy="no-referrer">
+          referrerPolicy="no-referrer"
+          style={{ textDecoration: "underline" }}>
           {login}
         </a>
       </div>
